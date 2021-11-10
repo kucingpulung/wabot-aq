@@ -31,14 +31,13 @@ let tags = {
 const defaultMenu = {
   before: `
 
- *%week %weton, %date*
- *%dateIslamic*
-Menu
-⋇⋆✦⋆⋇　
+  *%week %weton, %date*
+  *%dateIslamic*
+Menu　
 %readmore`.trimStart(),
-  header: '╭─「 %category 」',
-  body: ' • %cmd %islimit %isPremium',
-  footer: '╰────\n',
+  header: '⋇⋆%category⋆⋇',
+  body: '✦ %cmd %islimit %isPremium',
+  footer: '⋇⋆✦⋆⋇\n',
   after: `
 
 `,
